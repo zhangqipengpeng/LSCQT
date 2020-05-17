@@ -1,0 +1,443 @@
+body {
+  font-size: 14px;
+  color: #525252;
+}
+a {
+  color: #525252;
+}
+.container {
+  width: 1096px;
+  margin: 0 auto;
+}
+.topbar {
+  background: #f4f4f4;
+  height: 36px;
+  line-height: 36px;
+  font-size: 14px;
+}
+.topbar .public-size {
+  width: 1200px;
+  margin: 0 auto;
+}
+.topbar ul {
+  margin-right: 52px;
+}
+.topbar ul li {
+  background: url(https://www.cqtyanglao.com/skin/static/img/dot-1.png) no-repeat;
+  background-position: 48px 10px;
+}
+.topbar ul li:nth-child(2) {
+  padding-left: 0;
+  background-position: 33px 10px;
+}
+.topbar ul li:nth-last-child(1) {
+  background: none;
+}
+.topbar .welcome-left-r {
+  float: left;
+}
+.topbar .welcome-left-r li {
+  float: left;
+  padding: 0 15px;
+  margin-right: 0;
+}
+.topbar .welcome-left-r li .head-site-title {
+  font-size: 16px;
+  font-weight: bold;
+  color: #555555;
+}
+.topbar .welcome-left-r li a {
+  color: #747474;
+}
+.nav_all {
+  border-bottom: 0px;
+  padding: 0px;
+  background: #ffffff;
+  border-top: 1px solid #F2F2F2;
+}
+.nav_all .home-nav-l {
+  border-bottom: 1px solid #B8B8B8;
+  padding: 15px 0px;
+  height: 106px;
+  box-sizing: border-box;
+}
+.nav_all .home-nav-l .public-size {
+  width: 1200px;
+  margin: 0 auto;
+}
+.nav_all .home-nav-l .public-size .indexLogo {
+  float: left;
+  margin-right: 18px;
+}
+.nav_all .home-nav-l .public-size .indexLogo a {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+.nav_all .home-nav-l .public-size .indexLogo a img {
+  display: block;
+  padding: 5px;
+  box-sizing: border-box;
+  height: 75px;
+}
+.nav_all .home-nav-l .public-size .top_right {
+  margin-left: 30px;
+  height: 53px;
+  padding-left: 50px;
+}
+.nav_all .home-nav-l .public-size .top_right img {
+  padding: 11px 5px;
+}
+.nav_all .home-nav-l .public-size .f-r {
+  float: right;
+}
+.nav_all .nav-body {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.nav_all .nav-bg {
+  position: absolute;
+  top: 218px;
+  left: 0;
+  width: 100%;
+  height: 252px;
+  z-index: 2;
+  background: url(../images/home-bg.png) no-repeat;
+  background-size: 100% 252px;
+  display: none;
+}
+.nav_all .public-size {
+  width: 1200px;
+  height: 78px;
+  margin: 0 auto;
+}
+.nav_all .public-size .nav {
+  position: initial;
+  margin: 0 auto;
+  width: 1050px;
+  height: 100%;
+  background: #ffffff;
+}
+.nav_all .public-size .nav .nLi:nth-child(1) {
+  width: 133px;
+}
+.nav_all .public-size .nav .nLi:nth-child(5) {
+  width: 232px;
+}
+.nav_all .public-size .nav .nLi:nth first-child {
+  background: none;
+}
+.nav_all .public-size .nav .nLi {
+  float: left;
+  position: relative;
+  display: initial;
+  font-weight: bold;
+  padding: 0;
+  width: 167px;
+}
+.nav_all .public-size .nav .nLi h3 {
+  float: left;
+  width: 100%;
+}
+.nav_all .public-size .nav .nLi h3 a {
+  color: #444040;
+  font-weight: bold;
+  text-align: center;
+  width: 100%;
+  font-size: 20px;
+  padding: 12px 0px;
+  display: block;
+  line-height: 52px;
+}
+.nav_all .public-size .nav .nLi h3 a small {
+  font-size: 0.7em;
+}
+.nav_all .public-size .nav .nLi .sub {
+  position: absolute;
+  height: 229px;
+  line-height: 26px;
+  width: 100%;
+  left: 0;
+  top: 52px;
+  padding: 10px 0;
+  margin-top: 25px;
+  z-index: 10;
+  text-align: center;
+  display: none;
+  border-left: 1px solid #06947e;
+}
+.nav_all .public-size .nav .nLi .sub li a {
+  color: #fff;
+  line-height: 33px;
+  font-size: 16px;
+  font-weight: 100;
+}
+.nav_all .public-size .nav .nLi .sub li:hover {
+  background: #00ab96;
+}
+.nav_all .public-size .nav .nLi:hover {
+  background: #00ab96;
+}
+.nav_all .public-size .nav .nLi:hover a {
+  color: #fff;
+}
+.nav_all .public-size .nav .nLi:hover .sub {
+  display: block;
+}
+.nav_all .public-size .nav:hover .sub {
+  display: block;
+}
+.subactive {
+  background: url(../images/home-bg-item.png) no-repeat !important;
+  background-size: 100% 100% !important;
+}
+.main {
+  background: #fff;
+}
+.main .container {
+  width: 1086px;
+  margin: 0 auto;
+}
+.main .container .page-dir {
+  padding: 0.75rem 1rem;
+  margin-bottom: 1rem;
+  background: #e9ecef;
+  border-radius: 0.25rem;
+  margin-top: 24px;
+  font-size: 18px;
+}
+.main .container .page-dir a {
+  color: #36bc9b;
+}
+.main .container .f-l {
+  float: left;
+}
+.main .container .f-r {
+  float: right;
+}
+.main .container .reserve {
+  width: 100%;
+}
+.main .container .reserve .f-l {
+  float: left;
+}
+.main .container .reserve .intro-img .tyh-pic {
+  width: 420px;
+  height: 360px;
+}
+.main .container .reserve .parameter-attr {
+  padding: 25px;
+  background: #fff;
+  width: 436px;
+  margin-left: 8px;
+  overflow: visible;
+  padding-top: 0px;
+  padding-right: 0px;
+}
+.main .container .reserve .parameter-attr .purchase-tit .praise {
+  text-align: center;
+  padding: 0 10px;
+  border-left: 1px solid #eee;
+  color: #535353;
+}
+.main .container .reserve .parameter-attr .purchase-tit .praise .praise-num {
+  color: #ff6666;
+}
+.main .container .reserve .parameter-attr .purchase-tit .reserve-num {
+  text-align: center;
+  padding: 0 10px;
+  color: #535353;
+}
+.main .container .reserve .parameter-attr .purchase-tit .reserve-num .reserve-numbers {
+  color: #ff6666;
+}
+.main .container .reserve .parameter-attr .purchase-tit h2 {
+  font-size: 20px;
+  color: #000;
+  font-weight: normal;
+}
+.main .container .reserve .parameter-attr .purchase-tit h3 {
+  font-size: 14px;
+  color: #ff6666;
+  padding-top: 7px;
+  margin-top: 24px;
+}
+.main .container .reserve .parameter-attr .order-details dl {
+  margin-top: 7px;
+  min-height: 25px;
+}
+.main .container .reserve .parameter-attr .order-details dl dt,
+.main .container .reserve .parameter-attr .order-details dl .order-details dl dd {
+  float: left;
+}
+.main .container .reserve .parameter-attr .order-details dl dt {
+  width: 6em;
+  font-size: 12px;
+  color: #959595;
+  line-height: 24px;
+}
+.main .container .reserve .parameter-attr .order-details dl dd {
+  color: #535353;
+  font-size: 14px;
+}
+.main .container .reserve .parameter-attr .order-details dl .form-control {
+  padding: 2px 7px;
+  font-size: 14px;
+  line-height: 1.4;
+  color: #555;
+  background: #fff;
+  border: 1px solid #ccc;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+}
+.main .container .reserve .parameter-attr .order-details dl .order-details dl dd select {
+  height: 28px;
+}
+.main .container .reserve .parameter-attr .order-details dl .dd-address .province {
+  width: 95px;
+}
+.main .container .reserve .parameter-attr .order-details dl .dd-address .addressdesc {
+  margin: 3px 0px;
+  width: 304px;
+}
+.main .container .reserve .parameter-attr .btn-order-pop {
+  width: 154px;
+  height: 36px;
+  line-height: 36px;
+  background: #ff6666;
+  color: #fff;
+  font-size: 18px;
+  display: block;
+  text-align: center;
+  border-radius: 6px;
+  margin: 15px 0px;
+  border: 0px;
+}
+.main .container .reserve .top-clerk h3 {
+  width: 100%;
+  text-align: center;
+  height: 30px;
+  line-height: 28px;
+  color: #535353;
+  font-size: 14px;
+  border: 1px solid #e5e5e5;
+  background: #fff;
+  box-sizing: border-box;
+}
+.main .container .reserve .top-clerk .top-clerk-item {
+  width: 197px;
+  display: block;
+  text-align: center;
+}
+.main .container .reserve .top-clerk .top-clerk-item img {
+  width: 100%;
+  margin-top: 3px;
+  height: 190px;
+}
+.main .container .reserve-desc {
+  margin-top: 24px;
+}
+.main .container .reserve-desc .desc-type {
+  width: 100%;
+  margin-left: 0px;
+}
+.main .container .reserve-desc .desc-type ul {
+  width: 100%;
+  border-bottom: 1px solid #1ebd9b;
+}
+.main .container .reserve-desc .desc-type ul li {
+  display: list-item;
+  float: left;
+}
+.main .container .reserve-desc .desc-type ul li a {
+  font-size: 14px;
+  color: #535353;
+  display: block;
+  height: 35px;
+  line-height: 35px;
+  float: left;
+  width: 120px;
+  text-align: center;
+}
+.main .container .reserve-desc .desc-type ul li.active a {
+  background: #1ebd9b;
+  color: #fff;
+}
+.main .container .reserve-desc .desc-type .desc-content {
+  padding: 3px 0px;
+}
+.main .container .reserve-desc .desc-type .desc-content .tyh-text {
+  width: 100%;
+}
+.main .container .reserve-desc .desc-type .desc-content .tyh-text .tyh-title {
+  border: 1px solid #1ebd9b;
+  color: #1ebd9b;
+  width: 375px;
+  padding: 5px 20px;
+  border-radius: 20px;
+  font-size: 18px;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+.main .yuyue-body {
+  margin-top: 20px;
+}
+footer {
+  background: #3e3a39;
+  letter-spacing: 0.1em;
+}
+footer .footer-info {
+  padding: 40px 0;
+  box-sizing: border-box;
+  width: 1200px;
+  margin: 0 auto;
+}
+footer .footer-info .footer-left .copyright-name {
+  font-weight: bold;
+  color: #ffffff;
+  margin: 15px 0;
+  font-size: 17.3px;
+}
+footer .footer-info .footer-left .address {
+  color: #838383;
+  border: 0px;
+  padding: 0;
+  font-size: 16px;
+  width: 279px;
+}
+footer .footer-info .footer-right {
+  border-left: 1px solid #a09c9b;
+  margin-left: 100px;
+  padding-left: 70px;
+  font-size: 16px;
+}
+footer .footer-info .footer-right .foot-list ul {
+  float: left;
+  text-align: center;
+  color: #838383;
+}
+footer .footer-info .footer-right .foot-list ul li:first-child {
+  font-size: 16px;
+  font-weight: bold;
+  color: #ffffff;
+}
+footer .footer-info .footer-right .foot-list ul li {
+  padding: 5px 30px;
+}
+footer .footer-info .f-l {
+  float: left;
+}
+footer .copyright {
+  background: #111111;
+  height: 40px;
+  line-height: 40px;
+  font-size: 16px;
+  color: #a2a2a2;
+  text-align: center;
+  letter-spacing: 0.1em;
+}
+footer .copyright a {
+  color: #a2a2a2;
+  font-size: 16px;
+}

@@ -1,0 +1,929 @@
+body {
+  font-size: 14px;
+  color: #525252;
+}
+a {
+  color: #525252;
+}
+.topbar {
+  background: #f4f4f4;
+  height: 36px;
+  line-height: 36px;
+  font-size: 14px;
+}
+.topbar .public-size {
+  width: 1200px;
+  margin: 0 auto;
+}
+.topbar ul {
+  margin-right: 52px;
+}
+.topbar ul li {
+  background: url(../images/dot-1.png) no-repeat;
+  background-position: 48px 10px;
+}
+.topbar ul li:nth-child(2) {
+  padding-left: 0;
+  background-position: 33px 10px;
+}
+.topbar ul li:nth-last-child(1) {
+  background: none;
+}
+.topbar .welcome-left-r {
+  float: left;
+}
+.topbar .welcome-left-r li {
+  float: left;
+  padding: 0 15px;
+  margin-right: 0;
+}
+.topbar .welcome-left-r li .head-site-title {
+  font-size: 16px;
+  font-weight: bold;
+  color: #555555;
+}
+.topbar .welcome-left-r li a {
+  color: #747474;
+}
+.nav_all {
+  border-bottom: 0px;
+  padding: 0px;
+  background: #ffffff;
+  border-top: 1px solid #F2F2F2;
+}
+.nav_all .home-nav-l {
+  border-bottom: 1px solid #B8B8B8;
+  padding: 15px 0px;
+  height: 106px;
+  box-sizing: border-box;
+}
+.nav_all .home-nav-l .public-size {
+  width: 1200px;
+  margin: 0 auto;
+}
+.nav_all .home-nav-l .public-size .indexLogo {
+  float: left;
+  margin-right: 18px;
+}
+.nav_all .home-nav-l .public-size .indexLogo a {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+.nav_all .home-nav-l .public-size .indexLogo a img {
+  display: block;
+  padding: 5px;
+  box-sizing: border-box;
+  height: 75px;
+}
+.nav_all .home-nav-l .public-size .top_right {
+  margin-left: 30px;
+  height: 53px;
+  padding-left: 50px;
+}
+.nav_all .home-nav-l .public-size .top_right img {
+  padding: 11px 5px;
+}
+.nav_all .home-nav-l .public-size .f-r {
+  float: right;
+}
+.nav_all .nav-body {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.nav_all .nav-bg {
+  position: absolute;
+  top: 218px;
+  left: 0;
+  width: 100%;
+  height: 252px;
+  z-index: 2;
+  background: url(../images/home-bg.png) no-repeat;
+  background-size: 100% 252px;
+  display: none;
+}
+.nav_all .public-size {
+  width: 1200px;
+  height: 78px;
+  margin: 0 auto;
+}
+.nav_all .public-size .nav {
+  position: initial;
+  margin: 0 auto;
+  width: 1050px;
+  height: 100%;
+  background: #ffffff;
+}
+.nav_all .public-size .nav .nLi:nth-child(1) {
+  width: 133px;
+}
+.nav_all .public-size .nav .nLi:nth-child(5) {
+  width: 232px;
+}
+.nav_all .public-size .nav .nLi:nth first-child {
+  background: none;
+}
+.nav_all .public-size .nav .nLi {
+  float: left;
+  position: relative;
+  display: initial;
+  font-weight: bold;
+  padding: 0;
+  width: 167px;
+}
+.nav_all .public-size .nav .nLi h3 {
+  float: left;
+  width: 100%;
+}
+.nav_all .public-size .nav .nLi h3 a {
+  color: #444040;
+  font-weight: bold;
+  text-align: center;
+  width: 100%;
+  font-size: 20px;
+  padding: 12px 0px;
+  display: block;
+  line-height: 52px;
+}
+.nav_all .public-size .nav .nLi h3 a small {
+  font-size: 0.7em;
+}
+.nav_all .public-size .nav .nLi .sub {
+  position: absolute;
+  height: 229px;
+  line-height: 26px;
+  width: 100%;
+  left: 0;
+  top: 52px;
+  padding: 10px 0;
+  margin-top: 25px;
+  z-index: 10;
+  text-align: center;
+  display: none;
+  border-left: 1px solid #06947e;
+}
+.nav_all .public-size .nav .nLi .sub li a {
+  color: #fff;
+  line-height: 33px;
+  font-size: 16px;
+  font-weight: 100;
+}
+.nav_all .public-size .nav .nLi .sub li:hover {
+  background: #00ab96;
+}
+.nav_all .public-size .nav .nLi:hover {
+  background: #00ab96;
+}
+.nav_all .public-size .nav .nLi:hover a {
+  color: #fff;
+}
+.nav_all .public-size .nav .nLi:hover .sub {
+  display: block;
+}
+.nav_all .public-size .nav:hover .sub {
+  display: block;
+}
+.subactive {
+  background: url(../images/home-bg-item.png) no-repeat !important;
+  background-size: 100% 100% !important;
+}
+.public-size {
+  width: 1200px;
+  margin: 0 auto;
+}
+.public-size .home-reservation {
+  background: #f4f4f4;
+  margin: 20px 0px;
+}
+.public-size .home-reservation .reservation-left {
+  float: left;
+}
+.public-size .home-reservation .reservation-left .reserv-title {
+  float: left;
+  margin: 60px 50px;
+  margin-right: 30px;
+}
+.public-size .home-reservation .reservation-left .reserv-title .reserv-title-h2 {
+  font-size: 40px;
+  color: #00a88f;
+  font-weight: bold;
+  line-height: 69px;
+}
+.public-size .home-reservation .reservation-left .reserv-title .reserv-english {
+  font-size: 25px;
+  color: #999999;
+  text-align: center;
+  line-height: 15px;
+}
+.public-size .home-reservation .reservation-left .reserv-input {
+  margin: 60px 0px;
+  margin-bottom: 0px;
+  float: left;
+}
+.public-size .home-reservation .reservation-left .reserv-input p {
+  margin-bottom: 15px;
+}
+.public-size .home-reservation .reservation-left .reserv-input label {
+  display: block;
+  float: left;
+  font-size: 19px;
+  line-height: 50px;
+  padding: 0 6px;
+}
+.public-size .home-reservation .reservation-left .reserv-input input,
+.public-size .home-reservation .reservation-left .reserv-input select {
+  display: block;
+  float: left;
+  width: 180px;
+  margin-left: 6px;
+  background-color: #ffffff;
+  border-width: 1px;
+  border-color: #cccccc;
+  border-style: solid;
+  border-radius: 4px;
+  font-size: 18px;
+  padding: 6px 10px;
+  box-sizing: border-box;
+  outline: none;
+  font-weight: normal;
+  border: none;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+  height: 50px;
+}
+.public-size .home-reservation .reservation-left .reserv-submit {
+  margin: 60px 20px;
+  float: left;
+}
+.public-size .home-reservation .reservation-left .reserv-submit button {
+  background: #F2A700;
+  color: #ffffff;
+  border: 1px solid #F1BA3C;
+  font-weight: bold;
+  padding: 0px;
+  text-align: center;
+  border-radius: 4px;
+  width: 114px;
+  font-size: 37px;
+}
+.public-size .home-reservation .reservation-right {
+  float: right;
+  margin-left: 0;
+  border-left: 4px solid #ffffff;
+  height: 220px;
+}
+.public-size .home-reservation .reservation-right .reserv-last-user {
+  text-align: center;
+  margin-top: 15px;
+  font-size: 22px;
+  color: #444444;
+}
+.public-size .home-reservation .reservation-right .reservation-user-list {
+  overflow: hidden;
+}
+.public-size .home-reservation .reservation-right .reservation-user-list ul {
+  height: 170px;
+  overflow: hidden;
+}
+.public-size .home-reservation .reservation-right .reservation-user-list ul a {
+  width: 100%;
+  display: block;
+  color: #999999;
+  padding: 0 7px;
+  font-size: 16px;
+  line-height: 33px;
+  text-align: center;
+  box-sizing: border-box;
+}
+.public-size .box-head {
+  text-align: center;
+  margin: 40px auto;
+  width: 422px;
+}
+.public-size .box-head .index-linetve {
+  background: url(../images/transverse-line.png) no-repeat;
+  background-size: 120px 25px;
+  width: 110px;
+  height: 25px;
+  margin-top: 18px;
+  display: inline-block;
+}
+.public-size .box-head .box-headtitle {
+  font-size: 40px;
+  margin: 0 11px;
+  font-weight: bold;
+  display: block;
+}
+.public-size .box-head .f-l {
+  float: left;
+}
+.public-size .box-head p {
+  width: 100%;
+  font-size: 12px;
+  color: #707070;
+  margin-top: 3px;
+  float: left;
+}
+.public-size .index-site-attrs {
+  width: 734px;
+  margin: 30px auto;
+}
+.public-size .index-site-attrs .site-attr-box {
+  float: left;
+  color: #707070;
+  margin-right: 120px;
+}
+.public-size .index-site-attrs .site-attr-box .site-ioc-bor {
+  float: left;
+  width: 55px;
+  height: 55px;
+  text-align: center;
+  border: 1px solid #707070;
+  border-radius: 50%;
+}
+.public-size .index-site-attrs .site-attr-box .site-ioc-bor img {
+  width: 36px;
+  margin-top: 11px;
+}
+.public-size .index-site-attrs .site-attr-box .site-attr-info {
+  float: left;
+  margin-left: 3px;
+}
+.public-size .index-site-attrs .site-attr-box .site-attr-info p {
+  font-size: 16px;
+}
+.public-size .index-site-attrs .site-attr-box .site-attr-info div {
+  font-size: 27px;
+}
+.public-size .index-site-attrs .site-attr-box:nth-child(3) {
+  margin-right: 0;
+}
+.public-size .city-list {
+  margin: 25px auto;
+}
+.public-size .city-box {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 235.2px;
+  height: 235.2px;
+  margin-right: 6px;
+  float: left;
+  text-align: center;
+  z-index: 1;
+}
+.public-size .city-box .city-box-title {
+  position: relative;
+  top: 0;
+  left: 0;
+  z-index: 3;
+  width: 94.08px;
+  height: 54px;
+  padding: 20px 0;
+  display: inline-block;
+  margin: 0 auto;
+  margin-top: 33%;
+  border-radius: 50%;
+  background: black;
+  opacity: 0.75;
+  color: #ffffff;
+  border: 1px solid #333333;
+  font-size: 14px;
+}
+.public-size .city-box .masking {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: black;
+  opacity: 0.3;
+  z-index: 2;
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+.public-size .city-box:hover .masking {
+  display: block;
+}
+.public-size .city-box:hover .city-box-title {
+  background: none;
+  border: 1px solid #ffffff;
+  color: #ffffff;
+}
+.public-size .city-box:nth-child(5) {
+  margin-right: 0;
+}
+.public-size .city-nanjing {
+  background: url(../images/nanjing.png) no-repeat;
+}
+.public-size .city-beijing {
+  background: url(../images/beijing.png) no-repeat;
+}
+.public-size .city-shanghai {
+  background: url(../images/shanghai.png) no-repeat;
+}
+.public-size .city-suzhou {
+  background: url(../images/suzhou.png) no-repeat;
+}
+.public-size .city-hangzhou {
+  background: url(../images/hangzhou.png) no-repeat;
+}
+@media (min-width: 1200px) {
+  .reserv-title {
+    margin-left: 50px;
+  }
+  .service-content {
+    width: 100%;
+    height: 457px;
+    background: url(../images/service-content.png) no-repeat;
+    background-size: 100% 457px;
+  }
+  .service-content .box-head {
+    padding-top: 30px;
+    padding-bottom: 0px;
+  }
+  .service-group {
+    margin-top: 55px;
+  }
+}
+@media (min-width: 1400px) {
+  .reserv-title {
+    margin-left: 50px;
+  }
+  .service-content {
+    width: 100%;
+    height: 643px;
+    background: url(../images/service-content.jpg) no-repeat;
+    background-size: 100% 643px;
+  }
+  .service-content .box-head {
+    padding-top: 112px;
+    padding-bottom: 45px;
+  }
+  .service-group {
+    margin-top: 100px;
+    margin-left: 0px;
+  }
+}
+.service-content .public-size {
+  width: 1200px;
+  margin: 0 auto;
+}
+.service-content .p-text {
+  text-align: center;
+  color: #707070;
+  font-size: 17px;
+  line-height: 30px;
+}
+.service-content .service-box {
+  position: relative;
+  top: 0;
+  left: 0;
+  float: left;
+  display: block;
+  width: 135px;
+  height: 135px;
+  line-height: 135px;
+  border: 1px solid #707070;
+  border-radius: 50%;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  margin-right: 14.859px;
+  color: #525252;
+}
+.service-content .service-box p {
+  padding-top: 24px;
+}
+.service-content .service-box .service-box-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 135px;
+  height: 135px;
+  border-radius: 50%;
+  background-position: 50% 30% !important;
+}
+.service-content .service-box .serbg-1 {
+  background: url(../images/1.png) no-repeat;
+}
+.service-content .service-box .serbg-2 {
+  background: url(../images/2.png) no-repeat;
+}
+.service-content .service-box .serbg-3 {
+  background: url(../images/3.png) no-repeat;
+}
+.service-content .service-box .serbg-4 {
+  background: url(../images/4.png) no-repeat;
+}
+.service-content .service-box .serbg-5 {
+  background: url(../images/5.png) no-repeat;
+}
+.service-content .service-box .serbg-6 {
+  background: url(../images/6.png) no-repeat;
+}
+.service-content .service-box .serbg-7 {
+  background: url(../images/7.png) no-repeat;
+}
+.service-content .service-box .serbg-8 {
+  background: url(../images/8.png) no-repeat;
+}
+.service-content .service-box .serbg-1:hover {
+  background: url(../images/1-s\ \(1\).png) no-repeat;
+}
+.service-content .service-box .serbg-2:hover {
+  background: url(../images/2-s\ \(1\).png) no-repeat;
+}
+.service-content .service-box .serbg-3:hover {
+  background: url(../images/3-s\ \(1\).png) no-repeat;
+}
+.service-content .service-box .serbg-4:hover {
+  background: url(../images/4-s.png) no-repeat;
+}
+.service-content .service-box .serbg-5:hover {
+  background: url(../images/5-s.png) no-repeat;
+}
+.service-content .service-box .serbg-6:hover {
+  background: url(../images/6-s.png) no-repeat;
+}
+.service-content .service-box .serbg-7:hover {
+  background: url(../images/7-s.png) no-repeat;
+}
+.service-content .service-box .serbg-8:hover {
+  background: url(../images/8-s.png) no-repeat;
+}
+.service-content .service-box:hover {
+  background: #00a791;
+  border: 1px solid #ffffff;
+  color: #ffffff;
+}
+.service-content .service-box:nth-child(8) {
+  margin-right: 0;
+}
+.about-us {
+  text-align: center;
+}
+.about-us .box-head {
+  width: 464px;
+}
+.aboutus-box {
+  width: 368px;
+  float: left;
+  border-top: 10px solid #F4F4F4;
+  border-bottom: 10px solid #F4F4F4;
+  border-left: 12px solid #F4F4F4;
+  border-right: 12px solid #F4F4F4;
+  margin-right: 12px;
+}
+.aboutus-box img {
+  width: 100%;
+}
+.aboutus-box .aboutus-title {
+  color: #525252;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 3px 15px;
+  height: 66px;
+}
+.aboutus-box .aboutus-introduce {
+  color: #707070;
+  text-align: justify;
+  text-indent: 2em;
+  height: 76px;
+  line-height: 25px;
+  padding: 3px 15px;
+  overflow: hidden;
+}
+.aboutus-box:nth-child(3) {
+  margin-right: 0;
+}
+.aboutus-box:hover {
+  border-top: 10px solid #00a791;
+  border-bottom: 10px solid #00a791;
+  border-left: 12px solid #00a791;
+  border-right: 12px solid #00a791;
+}
+.news-group {
+  background: #f4f4f4;
+  margin-top: 60px;
+}
+.news-group .news-box {
+  float: left;
+  width: 288px;
+  margin-right: 16px;
+  background: #ffffff;
+}
+.news-group .news-box img {
+  width: 100%;
+  height: 184px;
+}
+.news-group .news-box .news-attr {
+  padding: 3px 15px;
+}
+.news-group .news-box .news-attr .news-title {
+  font-size: 20px;
+  font-weight: bold;
+  height: 44px;
+  overflow: hidden;
+  padding: 12px 0px;
+  color: #2c3331;
+}
+.news-group .news-box .news-attr .news-cteate-date {
+  padding-top: 10px;
+  color: #707070;
+}
+.news-group .news-box .news-attr .news-partial {
+  width: 17px;
+  border-bottom: 1px solid #707070;
+}
+.news-group .news-box .news-attr .news-introduce {
+  color: #707070;
+  text-align: justify;
+  text-indent: 2em;
+  line-height: 25px;
+  height: 78px;
+  overflow: hidden;
+  padding-top: 10px;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+}
+.news-group .news-box:hover {
+  background: #e4e4e4;
+}
+.news-group .news-box:nth-child(4) {
+  margin-right: 0;
+}
+.china-map-group .public-size {
+  padding: 26px 0px;
+}
+.china-map-group .public-size .map-left {
+  float: left;
+}
+.china-map-group .public-size .map-left .box-head {
+  text-align: left;
+  margin: 0px;
+  width: 422px;
+}
+.china-map-group .public-size .map-left .box-head .box-headtitle {
+  margin: 0;
+  font-size: 40px;
+  font-weight: bold;
+}
+.china-map-group .public-size .map-left .box-head p {
+  font-size: 12px;
+  color: #707070;
+  margin-top: 3px;
+}
+.china-map-group .public-size .map-left .china-info {
+  margin-top: 332px;
+  position: relative;
+  top: 0;
+  left: 0;
+  z-index: 5;
+}
+.china-map-group .public-size .map-left .china-info p {
+  color: #707070;
+  font-size: 17px;
+  line-height: 30px;
+}
+.china-map-group .public-size .map-left .china-info h2 {
+  line-height: 42px;
+  font-size: 1.5em;
+}
+.china-map-group .public-size .map-right {
+  float: left;
+  position: relative;
+  top: 0;
+  left: -114px;
+  background: url(../images/map.png) no-repeat;
+  background-size: 650px 537px;
+  width: 650px;
+  height: 537px;
+}
+.china-map-group .public-size .map-right .china-map-label .label-map {
+  width: 3em;
+  height: 25px;
+  position: absolute;
+  z-index: 2;
+}
+.china-map-group .public-size .map-right .china-map-label .label-nanjing {
+  top: 304px;
+  left: 485px;
+}
+.china-map-group .public-size .map-right .china-map-label .label-beijing {
+  top: 194px;
+  left: 440px;
+}
+.china-map-group .public-size .map-right .china-map-label .label-shanghai {
+  top: 314px;
+  left: 562px;
+}
+.china-map-group .public-size .map-right .china-map-label .label-chengdu {
+  top: 343px;
+  left: 279px;
+}
+.china-map-group .public-size .map-right .china-map-label .label-hangzhou {
+  top: 331px;
+  left: 503px;
+}
+.china-map-group .public-size .map-right .china-map-label .label-suzhou {
+  top: 289px;
+  left: 533px;
+}
+.china-map-group .public-size .map-right .china-map-label .label-guangzhou {
+  top: 429px;
+  left: 445px;
+}
+.china-map-group .public-size .map-right .china-map-list .china-map-box {
+  display: none;
+  position: absolute;
+  border-top: 2px solid #c1c1c1;
+  border-left: 2px solid #c1c1c1;
+  height: 160px;
+  width: 208px;
+  z-index: 1;
+}
+.china-map-group .public-size .map-right .china-map-list .china-map-box ul {
+  position: absolute;
+  top: -8px;
+  left: 214px;
+  width: 213px;
+  height: 405px;
+  font-size: 17px;
+  font-weight: bold;
+  color: #333;
+  overflow-y: auto;
+}
+.china-map-group .public-size .map-right .china-map-list .china-map-box ul li {
+  line-height: 20px;
+  margin-bottom: 15px;
+}
+.china-map-group .public-size .map-right .china-map-list .china-map-box ul li p {
+  font-size: 15px;
+  color: #707070;
+}
+.china-map-group .public-size .map-right .china-map-list .china-map-box:nth-child(1) {
+  display: block;
+}
+.china-map-group .public-size .map-right .china-map-list .mapbox-nanjing {
+  top: 153px;
+  left: 527px;
+}
+.china-map-group .public-size .map-right .china-map-list .mapbox-beijing {
+  top: 38px;
+  left: 481px;
+}
+.china-map-group .public-size .map-right .china-map-list .mapbox-shanghai {
+  top: 159px;
+  left: 560px;
+}
+.china-map-group .public-size .map-right .china-map-list .mapbox-chengdu {
+  top: 201px;
+  left: 297px;
+  width: 317px;
+}
+.china-map-group .public-size .map-right .china-map-list .mapbox-hangzhou {
+  top: 178px;
+  left: 544px;
+}
+.china-map-group .public-size .map-right .china-map-list .mapbox-suzhou {
+  top: 154px;
+  left: 552px;
+}
+.china-map-group .public-size .map-right .china-map-list .mapbox-guangzhou {
+  top: 289px;
+  left: 464px;
+}
+footer {
+  background: #3e3a39;
+  letter-spacing: 0.1em;
+}
+footer .footer-info {
+  padding: 40px 0;
+  box-sizing: border-box;
+}
+footer .footer-info .footer-left .copyright-name {
+  font-weight: bold;
+  color: #ffffff;
+  margin: 15px 0;
+  font-size: 17.3px;
+}
+footer .footer-info .footer-left .address {
+  color: #838383;
+  border: 0px;
+  padding: 0;
+  font-size: 16px;
+  width: 279px;
+}
+footer .footer-info .footer-right {
+  border-left: 1px solid #a09c9b;
+  margin-left: 100px;
+  padding-left: 70px;
+  font-size: 16px;
+}
+footer .footer-info .footer-right .foot-list ul {
+  float: left;
+  text-align: center;
+  color: #838383;
+}
+footer .footer-info .footer-right .foot-list ul li:first-child {
+  font-size: 16px;
+  font-weight: bold;
+  color: #ffffff;
+}
+footer .footer-info .footer-right .foot-list ul li {
+  padding: 5px 30px;
+}
+footer .footer-info .f-l {
+  float: left;
+}
+footer .copyright {
+  background: #111111;
+  height: 40px;
+  line-height: 40px;
+  font-size: 16px;
+  color: #a2a2a2;
+  text-align: center;
+  letter-spacing: 0.1em;
+}
+footer .copyright a {
+  color: #a2a2a2;
+  font-size: 16px;
+}
+.fixedBox .fixed-r {
+  width: 144px;
+  height: 52px;
+  position: fixed;
+  right: 2px;
+  top: 40%;
+  cursor: pointer;
+  background: #00AEF3;
+  border-radius: 5px;
+}
+.fixedBox .fixed-r .value {
+  width: 140px;
+  height: 50px;
+  background: url(../images/fixed1.png) no-repeat;
+  margin-left: 9px;
+}
+.fixedBox .center {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-left: -200px;
+  margin-top: -80px;
+  width: 400px;
+  height: 175px;
+  z-index: 9999;
+  border-radius: 3px;
+  background: #0085DA;
+}
+.fixedBox .center .centerBox {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  border-radius: 3px;
+  background: url(../images/fixed2.png) no-repeat;
+}
+.fixedBox .center .centerBox p {
+  position: absolute;
+  top: 44px;
+  left: 128px;
+  right: 26px;
+  font-size: 13pt;
+  color: #fff;
+}
+.fixedBox .center .centerBox .btn {
+  position: absolute;
+  bottom: 12px;
+  right: 12px;
+}
+.fixedBox .center .centerBox .btn .btn-text {
+  color: #fff;
+  font-size: 13px;
+  border: 1px solid #fff;
+  height: 32px;
+  line-height: 32px;
+  width: 80px;
+  text-align: center;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.fixedBox .center .centerBox .btn .btn-l {
+  float: left;
+  margin-right: 12px;
+}
+.fixedBox .center .centerBox .btn .btn-r {
+  float: left;
+  background: #fff;
+  color: #0085DA;
+}
+.fixedBox .center .centerBox span {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  background: url(../images/close.png) no-repeat;
+  width: 18px;
+  height: 18px;
+  cursor: pointer;
+}
